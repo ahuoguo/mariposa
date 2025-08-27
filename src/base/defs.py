@@ -49,7 +49,8 @@ CACHE_ROOT = "cache/"
 
 REPORT_ROOT = "doc/reports/"
 
-MARIPOSA_GROUPS = ["d_komodo", "d_fvbkv", "d_lvbkv", "fs_dice", "fs_vwasm"]
+# TODO: add groups for `./src/exper_wizard.py info`
+MARIPOSA_GROUPS = []
 
 def delegate(to, *methods):
     def dec(klass):
